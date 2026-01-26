@@ -72,6 +72,7 @@
         };
 
         media {
+            display-name = "media"
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &bl BL_CYCLE  &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_DISC 0    &bt BT_DISC 1  &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans    &kp K_PREV    &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_NEXT       &trans         &trans
@@ -81,6 +82,7 @@
         };
 
         num {
+            display-name = "numpad"
             bindings = <
 &none  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &none  &none   &none   &none   &none   &none
 &none  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &none  &trans  &trans  &trans  &trans  &none
@@ -90,6 +92,7 @@
         };
 
         sym {
+            display-name = "symbols"
             bindings = <
 &none  &kp LS(LBRC)   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RBRC)     &none  &none   &none   &none   &none   &none
 &none  &kp LS(COLON)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(PLUS)     &none  &trans  &trans  &trans  &trans  &none
@@ -99,6 +102,7 @@
         };
 
         fun {
+            display-name = "fun"
             bindings = <
 &none  &kp F12  &kp F7  &kp F8  &kp F9     &none      &none  &none   &none   &none   &none   &none
 &none  &kp F11  &kp F4  &kp F5  &kp F6     &none      &none  &trans  &trans  &trans  &trans  &none
@@ -108,6 +112,7 @@
         };
 
         layer_7 {
+            display-name = "RGB"
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
